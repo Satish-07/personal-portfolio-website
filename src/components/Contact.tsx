@@ -32,8 +32,8 @@ export default function Contact() {
                   <Mail size={24} />
                 </motion.div>
                 <div>
-                  <h3 className="font-semibold mb-1">Email</h3>
-                  <p className="text-slate-400 text-sm break-all">satish.dangeti07@gmail.com</p>
+                  <h3 className="font-semibold mb-1 text-white">Email</h3>
+                  <p className="text-white text-sm break-all">satish.dangeti07@gmail.com</p>
                 </div>
               </div>
             </motion.a>
@@ -54,8 +54,8 @@ export default function Contact() {
                   <MapPin size={24} />
                 </motion.div>
                 <div>
-                  <h3 className="font-semibold mb-1">Location</h3>
-                  <p className="text-slate-400 text-sm">Hyderabad, Telangana, India</p>
+                  <h3 className="font-semibold mb-1 text-white">Location</h3>
+                  <p className="text-white text-sm">Hyderabad, Telangana, India</p>
                 </div>
               </div>
             </motion.div>
@@ -79,8 +79,8 @@ export default function Contact() {
                   <Linkedin size={24} />
                 </motion.div>
                 <div>
-                  <h3 className="font-semibold mb-1">LinkedIn</h3>
-                  <p className="text-slate-400 text-sm">linkedin.com/in/satishdangeti</p>
+                  <h3 className="font-semibold mb-1 text-white">LinkedIn</h3>
+                  <p className="text-white text-sm">linkedin.com/in/satishdangeti</p>
                 </div>
               </div>
             </motion.a>
@@ -105,8 +105,8 @@ export default function Contact() {
                   <Github size={24} />
                 </motion.div>
                 <div>
-                  <h3 className="font-semibold mb-1">GitHub</h3>
-                  <p className="text-slate-400 text-sm">github.com/Satish-07</p>
+                  <h3 className="font-semibold mb-1 text-white">GitHub</h3>
+                  <p className="text-white text-sm">github.com/Satish-07</p>
                 </div>
               </div>
             </motion.a>
