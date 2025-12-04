@@ -55,7 +55,7 @@ export default function Contact() {
                 </motion.div>
                 <div>
                   <h3 className="font-semibold mb-1">Location</h3>
-                  <p className="text-slate-400 text-sm">Hyderabad, Telangana, India</p>
+                  <p className="text-slate-400 text-sm">Visakhapatnam, Andhra Pradesh</p>
                 </div>
               </div>
             </motion.div>

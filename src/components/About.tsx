@@ -114,7 +114,7 @@ export default function About() {
             <div className="grid md:grid-cols-2 gap-8">
               <div className="text-center">
                 <div className="text-slate-600 font-medium mb-2">Based in</div>
-                <div className="text-xl font-bold text-slate-900">Hyderabad, Telangana, India</div>
+                <div className="text-xl font-bold text-slate-900">Visakhapatnam, Andhra Pradesh</div>
               </div>
               <div className="text-center">
                 <div className="text-slate-600 font-medium mb-2">Languages</div>

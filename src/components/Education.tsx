@@ -1,4 +1,4 @@
-import { GraduationCap, Calendar } from 'lucide-react';
+import { GraduationCap } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 export default function Education() {
@@ -34,15 +34,6 @@ export default function Education() {
                   <p className="text-blue-600 font-semibold mb-3">
                     Surya Raya Degree College
                   </p>
-                  <div className="flex items-center gap-2 text-slate-600">
-                    <motion.div
-                      animate={{ rotate: [0, 360] }}
-                      transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
-                    >
-                      <Calendar size={18} />
-                    </motion.div>
-                    <span>June 2018 – August 2021</span>
-                  </div>
                   <div className="mt-4 pt-4 border-t border-slate-200">
                     <p className="text-slate-700 leading-relaxed">
                       Activities: In college, I built a strong foundation in computer science principles, database structures, and analytical thinking.
