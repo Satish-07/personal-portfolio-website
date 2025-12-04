@@ -87,30 +87,21 @@ export default function Skills() {
                 {functionalAreas.map((area, index) => (
                   <motion.div
                     key={area.name}
-                    initial={{ opacity: 0, scale: 0.8, rotateY: -90 }}
-                    whileInView={{ opacity: 1, scale: 1, rotateY: 0 }}
+                    initial={{ opacity: 0, scale: 0.8 }}
+                    whileInView={{ opacity: 1, scale: 1 }}
                     viewport={{ once: true }}
-                    transition={{ duration: 0.6, delay: index * 0.1 }}
-                    whileHover={{
-                      y: -12,
-                      scale: 1.08,
-                      rotateY: 15,
-                      rotateX: 10,
-                      z: 50
-                    }}
-                    style={{ transformStyle: 'preserve-3d' }}
-                    className="bg-gradient-to-br from-white via-blue-50 to-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-all group relative overflow-hidden"
+                    transition={{ duration: 0.5, delay: index * 0.1 }}
+                    whileHover={{ y: -8, scale: 1.05 }}
+                    className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow group"
                   >
-                    <div className="absolute inset-0 bg-gradient-to-br from-blue-400/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                     <motion.div
-                      whileHover={{ scale: 1.3, rotate: 360, z: 30 }}
-                      transition={{ duration: 0.6 }}
-                      style={{ transformStyle: 'preserve-3d' }}
-                      className="bg-gradient-to-br from-blue-100 to-blue-200 w-14 h-14 rounded-xl flex items-center justify-center mb-4 group-hover:shadow-lg relative z-10"
+                      whileHover={{ scale: 1.2, rotate: 360 }}
+                      transition={{ duration: 0.5 }}
+                      className="bg-blue-100 w-12 h-12 rounded-lg flex items-center justify-center mb-4 group-hover:bg-blue-200 transition-colors"
                     >
-                      <area.icon className="text-blue-600" size={26} />
+                      <area.icon className="text-blue-600" size={24} />
                     </motion.div>
-                    <h4 className="font-semibold text-slate-900 relative z-10">{area.name}</h4>
+                    <h4 className="font-semibold text-slate-900">{area.name}</h4>
                   </motion.div>
                 ))}
               </div>
@@ -123,39 +114,14 @@ export default function Skills() {
               {coreSkills.map((skill, index) => (
                 <motion.div
                   key={skill}
-                  initial={{ opacity: 0, scale: 0.5, rotateX: -90 }}
-                  whileInView={{ opacity: 1, scale: 1, rotateX: 0 }}
+                  initial={{ opacity: 0, scale: 0.8 }}
+                  whileInView={{ opacity: 1, scale: 1 }}
                   viewport={{ once: true }}
-                  transition={{
-                    duration: 0.6,
-                    delay: index * 0.08,
-                    type: "spring",
-                    stiffness: 100
-                  }}
-                  whileHover={{
-                    y: -8,
-                    scale: 1.12,
-                    rotateZ: [-2, 2, -2, 0],
-                    z: 40
-                  }}
-                  style={{ transformStyle: 'preserve-3d' }}
-                  className="bg-gradient-to-br from-blue-600 via-blue-500 to-blue-700 px-7 py-4 rounded-full shadow-lg hover:shadow-2xl transition-all relative overflow-hidden group"
+                  transition={{ duration: 0.4, delay: index * 0.1 }}
+                  whileHover={{ y: -4, scale: 1.05 }}
+                  className="bg-indigo-600 px-6 py-3 rounded-full shadow-sm hover:shadow-md transition-shadow border border-indigo-700 hover:border-indigo-800"
                 >
-                  <div className="absolute inset-0 bg-gradient-to-br from-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent" />
-                  <span className="font-semibold text-white relative z-10 drop-shadow-md">{skill}</span>
-                  <motion.div
-                    className="absolute inset-0 border-2 border-white/30 rounded-full"
-                    animate={{
-                      scale: [1, 1.1, 1],
-                      opacity: [0.3, 0.6, 0.3]
-                    }}
-                    transition={{
-                      duration: 2,
-                      repeat: Infinity,
-                      delay: index * 0.2
-                    }}
-                  />
+                  <span className="font-medium text-white">{skill}</span>
                 </motion.div>
               ))}
             </div>
