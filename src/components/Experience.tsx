@@ -26,16 +26,6 @@ export default function Experience() {
         'Conducted market research and competitive analysis to identify growth opportunities for client portfolios.',
       ],
     },
-    {
-      title: 'Sales Strategist',
-      company: 'SSJ Constructions',
-      location: 'Visakhapatnam, Andhra Pradesh, India',
-      period: 'August 2021 – March 2024 (2 years 8 months)',
-      achievements: [
-        'Implemented data-driven solutions and lead generation that reduced operational costs by 15%',
-        'Led cross-functional teams to align processes with strategic goals, driving sustainable growth',
-      ],
-    },
   ];
 
   return (
