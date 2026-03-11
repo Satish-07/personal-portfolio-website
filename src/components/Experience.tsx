@@ -9,7 +9,7 @@ export default function Experience() {
       location: 'Remote',
       period: 'September 2025 – Present',
       achievements: [
-       'Conducted user needs analysis via 150+ responses market survey, delivering actionable insights that informed requirements gathering and gap assessment.', 
+       'Conducted user needs analysis via 150+ responses market survey, that informed requirements gathering and gap assessment.', 
        'Authored a full-scope PRD for a B2B Carbon Credit Trading Platform targeting 15,000+ users within 18 months.',
        'Mapped 4 user epics with detailed acceptance criteria covering small quantity purchases, price comparison, bulk orders, and budget-based discovery.',
        'Defined 8 core feature modules with MoSCoW prioritization across a 3-phase, 12-sprint agile product development roadmap.',
