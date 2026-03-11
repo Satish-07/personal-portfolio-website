@@ -5,7 +5,7 @@ export default function Experience() {
   const experiences = [
     {
       title: 'Product Management Intern',
-      company: "International Institute of SDG's and Public Policy Research",
+      company: "International Institute of SDG\'s and Public Policy Research",
       location: 'Remote',
       period: 'September 2025 – December 2025',
       achievements: [
