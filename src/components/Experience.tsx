@@ -25,7 +25,7 @@ export default function Experience() {
       location: 'Remote',
       period: 'November 2024 – April 2025 (6 months)',
       achievements: [
-        'Collaborated on 2 strategic consulting projects, translating business requirements into actionable insights.',
+        'Collaborated on 2 strategic consulting projects, translating business requirements into structured BRD artifacts.',
         'Designed M&A and Decision-Tree framework to support business case development and stakeholder presentations.',
         'Processed 5,000+ rows of data with MySQL and Excel, resulting in a 20% reduction in report generation time.',
         'Identified 10–12% cost optimisation opportunities through financial and operational data analysis',
