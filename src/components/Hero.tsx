@@ -65,7 +65,7 @@ export default function Hero() {
             <motion.a
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              href="https://drive.google.com/file/d/1As4RGN7vk93lUcn_EJ0-onSeUPE5JPhp/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1pzFzOoaoJcxVlNbq2Okq02UsGF3eYKy-/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/50"
@@ -113,7 +113,7 @@ export default function Hero() {
             <motion.a
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              href="https://drive.google.com/file/d/1MBcLvedD867Qbmcwc2mVBwOcBSbfmEKX/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1iZ-EpNNzEBweXJasGh3mOLJABp_sxFXG/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/50"
