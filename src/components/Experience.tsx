@@ -5,9 +5,9 @@ export default function Experience() {
   const experiences = [
     {
       title: 'Product Management Intern',
-      company: 'International Institute of SDG\'s and Public Policy Research',
+      company: 'International Institute of SDG's and Public Policy Research',
       location: 'Remote',
-      period: 'September 2025 – Present',
+      period: 'September 2025 – December 2025',
       achievements: [
        'Conducted user needs analysis via 150+ responses market survey, that informed requirements gathering and gap assessment.', 
        'Authored a full-scope PRD for a B2B Carbon Credit Trading Platform targeting 15,000+ users within 18 months.',
